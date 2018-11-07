@@ -4,7 +4,10 @@ import MainBody from './MainBody';
 
 function HomeView() {
   return(
-    <div>
+    <div className='homeViewStyle'>
+      <style jsx>{`
+    
+          `}</style>
       <Header/>
       <MainBody/>
     </div>

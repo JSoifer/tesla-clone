@@ -4,7 +4,10 @@ import HomeView from './HomeView';
 
 function App(){
   return (
-    <div>
+    <div className='appStyle'>
+      <style jsx>{`
+        
+            `}</style>
       <HomeView/>
       <Switch>
       </Switch>

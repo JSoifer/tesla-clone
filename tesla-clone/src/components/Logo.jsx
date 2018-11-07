@@ -2,10 +2,12 @@ import React from 'react';
 
 function Logo() {
   const imagesize = {
-      width: '100px'
-  }
+    width: '100px',
+    marginLeft: '20px'
+
+  };
   return(
-    <img style={imagesize} src='https://seeklogo.com/images/T/tesla-motors-logo-4490FD5578-seeklogo.com.png'></img>
+    <img style={imagesize} src='https://cdn.worldvectorlogo.com/logos/tesla-9.svg'></img>
   );
 }
 
