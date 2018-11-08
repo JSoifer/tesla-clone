@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function SplashBannerLinks() {
   return(
@@ -38,7 +39,7 @@ function SplashBannerLinks() {
           `}</style>
       <ul className='splashLinksListStyle'>
         <li id='orderNow' className='splashLinksStyle'>ORDER NOW</li>
-        <li className='splashLinksStyle'>LEARN MORE</li>
+        <li className='splashLinksStyle'><Link to='/models'>LEARN MORE</Link></li>
         <li className='splashLinksStyle'>TEST DRIVE</li>
         <li className='splashLinksStyle'>SHOP INVENTORY</li>
       </ul>

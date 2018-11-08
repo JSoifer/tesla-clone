@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function ProductLinks() {
   return(
@@ -19,9 +20,12 @@ function ProductLinks() {
             font-size: .80em;
             letter-spacing: 1px;
           }
+          a {
+            text-decoration: none;
+          }
             `}</style>
       <ul className='productLinksListStyle'>
-        <li className='productLinksItemStyle'>MODEL S</li>
+        <li className='productLinksItemStyle'><Link to='/models'>MODEL S</Link></li>
         <li className='productLinksItemStyle'>MODEL X</li>
         <li className='productLinksItemStyle'>MODEL 3</li>
         <li className='productLinksItemStyle'>ROADSTER</li>

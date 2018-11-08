@@ -3,6 +3,7 @@ import Logo from './Logo';
 import ProductLinks from './ProductLinks';
 import HeaderRight from './HeaderRight';
 
+
 function Header() {
 
   return(
@@ -15,7 +16,7 @@ function Header() {
             background-color: #83807b;
             justify-content: space-between;
             padding-top: 10px;
-            
+
           }
             `}</style>
       <Logo/>

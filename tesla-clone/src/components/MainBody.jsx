@@ -16,7 +16,7 @@ function MainBody() {
 
 
       `}</style>
-    <SplashBanner/>
+      <SplashBanner/>
     </div>
   );
 }
